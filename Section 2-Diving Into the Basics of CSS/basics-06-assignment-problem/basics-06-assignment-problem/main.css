@@ -1,0 +1,24 @@
+.selected-part{
+  color: green;  
+}
+
+h1{
+  color: rgb(97, 11, 61);
+  font-family:sans-serif;
+}
+code{
+  font-family: monospace;
+  color: red;
+}
+
+body{
+  font-family: sans-serif;
+}
+li + li{
+  background-color: black;
+  color: white;
+}
+ol > li{
+  background-color: black;
+  color: white;
+}
