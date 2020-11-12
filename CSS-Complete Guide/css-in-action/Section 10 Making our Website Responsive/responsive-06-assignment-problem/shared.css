@@ -67,12 +67,15 @@ body {
 }
 
 .main-header__brand img {
-  height: 2.5rem;
+  height: 100%;
   /* width: 100%; */
 }
 
 .main-nav {
-  display: none;
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 122px);
+  vertical-align: middle;
 }
 
 .main-nav__items {
@@ -115,18 +118,6 @@ body {
   color: #ff1b68;
   background: white;
   border: none;
-}
-@media (min-width: 40rem) {
-  .toggle-button {
-    display : none;
-  }
-}
-
-.main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 44px);
-  vertical-align: middle;
 }
 
 .main-footer {
@@ -208,10 +199,4 @@ body {
 
 .open {
     display: block !important;
-}
-
-@media ( min-width : 40rem)
-.main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
 }
