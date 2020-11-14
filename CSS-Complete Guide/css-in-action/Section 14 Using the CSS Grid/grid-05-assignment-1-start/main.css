@@ -1,6 +1,15 @@
+html {
+  height: 100%;
+}
+
+body{
+  display:grid;
+  margin: 28px;
+  height: 100%;
+}
 header{
   background: rgb(223, 114, 114);
-  color: aquamarine;
+  color: rgb(23, 99, 73);
 }
 
 main {
