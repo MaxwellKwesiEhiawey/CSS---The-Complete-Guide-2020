@@ -6,15 +6,22 @@ body{
   display:grid;
   margin: 28px;
   height: 100%;
+  grid-template-columns:[ col-1-start] 1fr [ col-1-end col-2-start] 3fr ;
+  grid-template-rows: 4.5rem auto 4.5rem;
 }
 header{
   background: rgb(223, 114, 114);
   color: rgb(23, 99, 73);
+  grid-column-start: 1;
+  grid-column-start: col-1-start;
+  grid-column-end: col-1-end;
 }
 
 main {
   background: goldenrod;
   color: bisque;
+  grid-column-start: col-2-start ;
+  grid-column-end: span 1;
 }
 
 aside {
@@ -23,6 +30,8 @@ color: coral;
 }
 
 footer {
-background: cyan;
+background: rgb(22, 165, 165);
 color: darkorange;
+grid-column-start: col-1-start;
+grid-column-end: col-2-end;
 }
