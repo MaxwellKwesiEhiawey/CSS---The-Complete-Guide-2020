@@ -1,0 +1,19 @@
+header{
+  background: rgb(223, 114, 114);
+  color: aquamarine;
+}
+
+main {
+  background: goldenrod;
+  color: bisque;
+}
+
+aside {
+background: blueviolet;
+color: coral;
+}
+
+footer {
+background: cyan;
+color: darkorange;
+}
